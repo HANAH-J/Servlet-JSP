@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>web10</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AjaxTest01</display-name>
+    <servlet-name>AjaxTest01</servlet-name>
+    <servlet-class>com.green.servlet.AjaxTest01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjaxTest01</servlet-name>
+    <url-pattern>/ajaxTest01</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AjaxTest02</display-name>
+    <servlet-name>AjaxTest02</servlet-name>
+    <servlet-class>com.green.servlet.AjaxTest02</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjaxTest02</servlet-name>
+    <url-pattern>/ajaxTest02</url-pattern>
+  </servlet-mapping>
+</web-app>
